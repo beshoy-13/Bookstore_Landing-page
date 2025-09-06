@@ -471,3 +471,32 @@ footer h6 {
         font-size: 28px;
     }
 }
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        padding: 20px 0 60px;
+        gap: 30px;
+    }
+    .hero .text {
+        text-align: center;
+    }
+    .tracks .head {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .tracks .head p {
+        font-size: 16px;
+    }
+    .pros {
+        width: 100%;
+        padding: 20px;
+        margin-top: -20px;
+    }
+    footer {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .linkscont {
+        gap: 40px;
+    }
+}
