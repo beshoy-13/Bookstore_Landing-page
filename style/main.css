@@ -55,8 +55,7 @@ nav ul li button {
 .hero {
     width: 80%;
     margin: auto;
-    padding: 6%;
-    padding-bottom: 10%;
+    padding: 6% 0 10% 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,22 +217,24 @@ nav ul li button {
 .learncont {
     background-color: #FDF8EE;
     margin: 60px auto;
+    width: 80%;
 }
 .learn {
-    width: 80%;
-    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+.learn img {
+    max-width: 100%;
+    height: auto;
 }
 .learn .details {
     display: flex;
     gap: 10px;
     align-items: center;
     font-size: 24px;
-    flex-direction: row;
 }
 .learn .details .text p {
     color: #8A8A8A;
@@ -266,9 +267,8 @@ nav ul li button {
     flex: 1 1 300px;
 }
 .comments .cardscont .card img {
-    width: 60px;
+    width: auto;
     height: 60px;
-    border-radius: 50%;
 }
 .comments .cardscont .card .name h6 {
     font-size: 20px;
@@ -297,7 +297,7 @@ nav ul li button {
 }
 .logos a img {
     width: 22px;
-    height: 22px;
+    height: auto;
 }
 .subscribe {
     width: 60%;
@@ -408,9 +408,6 @@ footer h6 {
         flex-direction: column;
         gap: 30px;
         text-align: center;
-    }
-    .learn .details {
-        font-size: 24px;
     }
     footer {
         flex-direction: column;
